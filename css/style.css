@@ -1,0 +1,29 @@
+.header__block{
+    padding: 10px 18px 9px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    background: #000;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #000;
+    border-radius: 40px;
+}
+.logo1{
+    border: none;
+    background: transparent;
+}
+
+
+@media screen and (max-width:718px) {
+    .hero__title{
+        display: none;
+    }
+    .header__block{
+        justify-content: center;
+    }
+    
+}
+    
